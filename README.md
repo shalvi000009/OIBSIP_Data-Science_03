@@ -67,41 +67,6 @@ This project uses a **Random Forest Regressor**.
 
 The model is trained directly inside the app using the dataset and then used to generate predictions from user input.
 
-## ⚙ Installation & Run Commands
-
-### 1. Clone or download the project
-
-### 2. Open the project folder
-
-### 3. Install dependencies
-
-```bash
-pip install streamlit pandas numpy scikit-learn matplotlib
-```
-
-### 4. Run the Streamlit app
-
-```bash
-streamlit run app.py
-```
-
-### Optional: create a virtual environment
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install streamlit pandas numpy scikit-learn matplotlib
-```
-
-## 📁 Project Structure
-
-```bash
-Car-Price-Prediction-System/
-├── app.py
-├── car data.csv
-└── README.md
-```
-
 ## 🚀 Future Enhancements
 
 - Add more datasets for better training performance
@@ -111,20 +76,3 @@ Car-Price-Prediction-System/
 - Save the trained model using `pickle` or `joblib`
 - Add dark mode and improved UI animations
 - Include user authentication and prediction history
-
-## 🧑‍💻 Internship Project Note
-
-This project was developed as part of the **Oasis Infobyte Data Science Internship** to demonstrate practical skills in data preprocessing, supervised machine learning, and interactive application development.
-
-## 📸 Portfolio Ready
-
-This README is designed to look clean and professional for:
-
-- GitHub repositories
-- LinkedIn portfolio posts
-- Resume project sections
-- Internship submissions
-
----
-
-### Made with ❤️ using Python and Streamlit
